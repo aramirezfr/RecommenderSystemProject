@@ -1,13 +1,13 @@
-# Business Understanding
+## Business Understanding
 This project aims to automate the detection of pneumonia from chest X-ray images using a convolutional neural network (CNN) model. Pneumonia, if not diagnosed early, can lead to severe complications and increased mortality, especially among vulnerable populations. Automated detection systems can assist healthcare professionals by providing faster and more accurate diagnosis, reducing workloads, and supporting regions with limited access to radiology experts.
 
-# Data Understanding
+## Data Understanding
 The dataset used is the “Chest X-Ray Images (Pneumonia)” from Kaggle (https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), consisting of 5,863 images divided into two categories: Normal and Pneumonia. This dataset includes pediatric chest X-rays, with pneumonia cases labeled as either viral or bacterial. The dataset is structured into training, validation, and testing sets to facilitate model development and evaluation.
 
 ## Data Preparation
 Data preparation involved several key steps to ensure the dataset was ready for modeling. I created organized directories for the images, ensuring they were structured correctly for efficient access during the modeling process. These steps collectively prepared the images for effective training and evaluation of the model.
 
-# Exploratory Data Analysis
+## Exploratory Data Analysis
 EDA reveals class imbalances in the dataset, with more pneumonia cases than normal images. Visual inspections of X-rays highlight differences between normal and infected lungs, such as increased opacity in pneumonia-affected areas. Basic statistics such as class distributions and average pixel intensities guide data augmentation and model strategy. I implemented data augmentation techniques to enhance the diversity of the training images. 
 
 ## Modeling
@@ -18,7 +18,7 @@ EDA reveals class imbalances in the dataset, with more pneumonia cases than norm
 ## Evaluation:
 **Final Model:** The final model demonstrated an accuracy of approximately 85.7%, with 189 true positives and 346 true negatives, while highlighting the need for improvement due to 44 false negatives.
 
-# Conclusion
+## Conclusion
 In this project, we developed a robust CNN model to classify X-ray images of pneumonia and healthy lungs, addressing a critical healthcare challenge. Through iterative improvements across three models, we enhanced performance metrics such as precision and recall, ultimately achieving a balanced final model that minimizes false negatives while maintaining high accuracy. The insights gained from this work not only demonstrate the potential of deep learning in medical diagnostics but also highlight the importance of ongoing refinement and evaluation to ensure effective real-world applications. Future work will focus on further reducing false negatives and improving model generalization.
 
 ## Limitations
