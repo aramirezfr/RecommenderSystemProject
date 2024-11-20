@@ -31,3 +31,14 @@ In this project, we developed a robust CNN model to classify X-ray images of pne
 Implementing advanced techniques such as transfer learning could also enhance performance, particularly in addressing class imbalance. 
 -Further exploration of ensemble methods may yield better predictive accuracy by combining the strengths of multiple models. It is crucial to conduct extensive validation on external datasets to assess the model’s robustness in real-world scenarios. 
 -Integrating additional clinical data, such as patient history and symptoms, could provide a more comprehensive diagnostic tool, ultimately improving patient outcomes.
+
+## More Information:
+Find the full analysis in the CNN_Pneumonia_Classifier.ipynb or review this [presentation](CNNPneumoniaClassifier.pdf).
+
+## Repository Structure
+- Graphs
+- README.md
+- CNN_Pneumonia_Classifier.ipynb
+- CNNPneumoniaClassifier.pdf
+
+### Author: Adriana Ramirez Franco (aramirezfr20@gmail.com)
