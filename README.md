@@ -3,6 +3,7 @@ This project aims to automate the detection of pneumonia from chest X-ray images
 
 ## Data Understanding
 The dataset used is the “Chest X-Ray Images (Pneumonia)” from Kaggle (https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), consisting of 5,863 images divided into two categories: Normal and Pneumonia. This dataset includes pediatric chest X-rays, with pneumonia cases labeled as either viral or bacterial. The dataset is structured into training, validation, and testing sets to facilitate model development and evaluation.
+
 ![Pneumonia vs. Normal xrays](./Graphs/xrays.png)
 
 ## Data Preparation
@@ -10,6 +11,7 @@ Data preparation involved several key steps to ensure the dataset was ready for 
 
 ## Exploratory Data Analysis
 EDA reveals class imbalances in the dataset, with more pneumonia cases than normal images. Visual inspections of X-rays highlight differences between normal and infected lungs, such as increased opacity in pneumonia-affected areas. Basic statistics such as class distributions and average pixel intensities guide data augmentation and model strategy. I implemented data augmentation techniques to enhance the diversity of the training images. 
+
 ![Data Imbalance](./Graphs/Imbalance.png)
 
 ## Modeling
