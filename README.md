@@ -19,14 +19,15 @@ EDA reveals class imbalances in the dataset, with more pneumonia cases than norm
 **Final Model:** The final model demonstrated an accuracy of approximately 85.7%, with 189 true positives and 346 true negatives, while highlighting the need for improvement due to 44 false negatives.
 
 # Conclusion
-The project demonstrates the potential of CNNs in automating pneumonia detection. It offers a valuable diagnostic aid to healthcare professionals.
+In this project, we developed a robust CNN model to classify X-ray images of pneumonia and healthy lungs, addressing a critical healthcare challenge. Through iterative improvements across three models, we enhanced performance metrics such as precision and recall, ultimately achieving a balanced final model that minimizes false negatives while maintaining high accuracy. The insights gained from this work not only demonstrate the potential of deep learning in medical diagnostics but also highlight the importance of ongoing refinement and evaluation to ensure effective real-world applications. Future work will focus on further reducing false negatives and improving model generalization.
 
 ## Limitations
-- The dataset is focused primarily on pediatric cases and may not generalize well to adult populations.
-- Imbalanced data between normal and pneumonia cases could affect model performance, requiring strategies such as oversampling or weighted loss functions.
-- X-ray images alone may not be sufficient for conclusive diagnosis, as clinical factors are also essential in real-world scenarios.
+- Firstly, the dataset does not fully represent the diversity of pneumonia cases encountered in real-world clinical settings, potentially affecting the model’s generalizability.
+- Additionally, the class imbalance, with significantly more pneumonia cases than normal cases, could lead to biased predictions, particularly in identifying healthy patients.
+- Finally, while the model shows promising results, further validation on external datasets is necessary to ensure its reliability in clinical applications.
 
 ## Recommendations and Next Steps
-- Improve model generalization by adding more diverse X-ray datasets, including adult cases and different pneumonia types.
-- Deploy the model in a clinical setting as a decision-support tool and collect feedback for iterative improvements.
-
+-Expanding the dataset to include a more diverse range of X-ray images from various demographics and clinical backgrounds would improve the model’s generalizability.
+Implementing advanced techniques such as transfer learning could also enhance performance, particularly in addressing class imbalance. 
+-Further exploration of ensemble methods may yield better predictive accuracy by combining the strengths of multiple models. It is crucial to conduct extensive validation on external datasets to assess the model’s robustness in real-world scenarios. 
+-Integrating additional clinical data, such as patient history and symptoms, could provide a more comprehensive diagnostic tool, ultimately improving patient outcomes.
