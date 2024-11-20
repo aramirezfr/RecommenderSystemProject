@@ -20,7 +20,7 @@ EDA reveals class imbalances in the dataset, with more pneumonia cases than norm
 ![Model 2: Training/Validation Data Performance](./Graphs/Model2.png)
 
 **Model 3:** This optimized CNN incorporated batch normalization and dynamic learning rate scheduling, achieving a balanced performance with a precision of 0.87, recall of 0.94, and an F1 score of 0.90.
-![Model 3: Training/Validation Data Performance](./Graphs/Model3.png)
+![Model 3: Training/Validation Data Performance](./Graphs/Model3Final.png)
 
 ## Evaluation:
 **Final Model:** The final model demonstrated an accuracy of approximately 85.7%, with 189 true positives and 346 true negatives, while highlighting the need for improvement due to 44 false negatives.
@@ -41,7 +41,7 @@ Implementing advanced techniques such as transfer learning could also enhance pe
 -Integrating additional clinical data, such as patient history and symptoms, could provide a more comprehensive diagnostic tool, ultimately improving patient outcomes.
 
 ## More Information:
-Find the full analysis in the [Google Colab]CNN_Pneumonia_Classifier.ipynb or review this [presentation](CNNPneumoniaClassifier.pdf).
+Find the full analysis in the [GoogleColab]CNN_Pneumonia_Classifier.ipynb or review this [presentation](CNNPneumoniaClassifier.pdf).
 
 ## Repository Structure
 - Graphs
